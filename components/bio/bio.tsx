@@ -11,9 +11,9 @@ const Bio: React.FC = () => (
             <span className={styles.highlight}>&nbsp;full stack</span> and also{' '}
             <span className={styles.highlight}>leading</span> small to medium sized{' '}
             <span className={styles.highlight}>high-performance&nbsp;</span>
-            development teams. I love taking <span className={styles.highlight}>ownership</span> of an the entire
-            product suite and also representation to senior <span className={styles.highlight}>stakeholders</span>, and
-            working directly with
+            development teams. I love taking <span className={styles.highlight}>ownership</span> of the entire product
+            suite and also representation to senior <span className={styles.highlight}>stakeholders</span>, and working
+            directly with
             <span className={styles.highlight}>&nbsp;entrepreneurs</span>.
         </div>
         <div className={styles.summary}>If you like what you see, let&apos;s connect on LinkedIn.</div>
