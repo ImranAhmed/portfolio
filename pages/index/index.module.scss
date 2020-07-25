@@ -75,9 +75,9 @@
     @include recentItemsContainerOne($brand-dark-grey, $brand-slate-grey);
 }
 .recentItemsContainerThree {
-    @include recentItemsContainerOne($brand-silver, $brand-teal);
+    @include recentItemsContainerOne($brand-orange, $brand-yellow);
 }
 
 .recentItemsContainerFour {
-    @include recentItemsContainerOne($brand-teal, $brand-silver);
+    @include recentItemsContainerOne($brand-yellow, $brand-orange);
 }
