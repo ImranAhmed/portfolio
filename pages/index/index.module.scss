@@ -1,6 +1,9 @@
 @import '../../styles/colours.scss';
+@import '../../styles/typography.scss';
 
 .container {
+    display: grid;
+    place-items: center;
     h1 {
         color: $brand;
     }
