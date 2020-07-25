@@ -16,12 +16,15 @@
     "dependencies": {
         "@storybook/react": "^5.3.19",
         "@testing-library/jest-dom": "^5.1.0",
+        "css-loader": "^4.0.0",
         "enzyme": "^3.11.0",
         "enzyme-adapter-react-16": "^1.15.2",
         "next": "9.4.4",
         "react": "16.13.1",
         "react-dom": "16.13.1",
-        "react-text-loop": "^2.3.0"
+        "react-text-loop": "^2.3.0",
+        "sass-loader": "^9.0.2",
+        "style-loader": "^1.2.1"
     },
     "devDependencies": {
         "@babel/core": "^7.10.5",

@@ -1,0 +1,25 @@
+@import '../../styles/typography.scss';
+@import '../../styles/colours.scss';
+
+.bio {
+    width: 450px;
+    background-color: rgba($brand-dark-grey, 0.9);
+    padding: 25px;
+    box-shadow: 0 8px 16px 0 $brand-dark-grey;
+    margin-top: 20px;
+}
+.underline {
+    border-top: 1px solid $brand-slate-grey;
+    width: 250px;
+    margin-top: 20px;
+}
+.highlight {
+    font-weight: bolder;
+    font-size: larger;
+    color: $brand-slate-grey;
+}
+.summary {
+    margin-top: 20px;
+    line-height: 1.75rem;
+    font-size: 18px;
+}
