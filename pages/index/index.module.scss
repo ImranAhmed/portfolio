@@ -28,9 +28,19 @@
         width: 250px;
         margin-bottom: 10px;
     }
+    .highlight {
+        font-weight: bolder;
+        font-size: larger;
+        color: $brand-slate-grey;
+    }
+    .underline {
+        border-top: 1px solid $brand-slate-grey;
+        width: 250px;
+        margin-top: 20px;
+    }
     .summary {
         margin-top: 20px;
-        line-height: 1.7rem;
+        line-height: 1.75rem;
         font-size: 18px;
     }
 }
