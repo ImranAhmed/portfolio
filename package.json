@@ -20,7 +20,8 @@
         "enzyme-adapter-react-16": "^1.15.2",
         "next": "9.4.4",
         "react": "16.13.1",
-        "react-dom": "16.13.1"
+        "react-dom": "16.13.1",
+        "react-text-loop": "^2.3.0"
     },
     "devDependencies": {
         "@babel/core": "^7.10.5",

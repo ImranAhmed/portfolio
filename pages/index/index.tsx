@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
+import TextLoop from 'react-text-loop';
 import styles from './index.module.scss';
 
 const Home: NextPage = () => {
@@ -15,13 +16,23 @@ const Home: NextPage = () => {
                 <div className={styles.divider} />
                 <div className="headline1">Imran Ahmed</div>
                 <div className={styles.bio}>
-                    <div className="headline6">Web Architect / Engineer</div>
+                    <div className="headline5">
+                        <TextLoop>
+                            <span>Web Architect</span>
+                            <span>Software Engineer</span>
+                            <span>UI Developer</span>
+                            <span>UX Designer</span>
+                            <span>Cloud Architect</span>
+                            <span>Computer Scientist</span>
+                        </TextLoop>
+                    </div>
                     <div className="body2">
                         <div className={styles.summary}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                            Welcome to my space. I am a software engineer with over twenty years development experience
+                            acorss bulge-bracket investment banks and start-ups. I am comfortable across the full stack
+                            and also leading small to medium sized development teams. I enjoy product ownership and
+                            representation to senior stakeholders and also working directly with entrepeneurs. If you
+                            like what you see please feel free to connect with me on LinkedIn.
                         </div>
                     </div>
                 </div>
