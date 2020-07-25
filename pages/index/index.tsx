@@ -20,8 +20,28 @@ const Home: NextPage = () => {
                     <JobTitles />
                     <Bio />
                 </div>
+                <div className={['material-icons', styles.largeIcon].join(' ')}>keyboard_arrow_down</div>
             </div>
-            <div className={['material-icons', styles.largeIcon].join(' ')}>keyboard_arrow_down</div>
+            <div className={styles.recentItemsSection}>
+                <div className={styles.recentItemsContainerOne}>
+                    <div className={styles.divider} />
+                    <div className="headline3">London Stock Exchange</div>
+                </div>
+                <div className={styles.recentItemsContainerTwo}>
+                    <div className={styles.divider} />
+                    <div className="headline3">UBS</div>
+                </div>
+            </div>
+            <div className={styles.recentItemsSection}>
+                <div className={styles.recentItemsContainerThree}>
+                    <div className={styles.divider} />
+                    <div className="headline3">Qbridge</div>
+                </div>
+                <div className={styles.recentItemsContainerFour}>
+                    <div className={styles.divider} />
+                    <div className="headline3">Credit Suisse</div>
+                </div>
+            </div>
         </>
     );
 };

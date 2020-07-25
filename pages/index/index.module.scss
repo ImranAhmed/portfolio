@@ -48,8 +48,36 @@
 .largeIcon {
     font-size: 84px;
     color: $brand-slate-grey;
+}
+
+.recentItemsSection {
     display: grid;
-    place-items: center;
-    position: relative;
-    top: -40px;
+    height: 75vh;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@mixin recentItemsContainerOne($color, $dividerColor) {
+    padding: 100px;
+    background: $color;
+    color: $dividerColor;
+    .divider {
+        border-top: 5px solid $dividerColor;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+}
+
+.recentItemsContainerOne {
+    @include recentItemsContainerOne($brand-slate-grey, $brand-dark-grey);
+}
+
+.recentItemsContainerTwo {
+    @include recentItemsContainerOne($brand-dark-grey, $brand-slate-grey);
+}
+.recentItemsContainerThree {
+    @include recentItemsContainerOne($brand-silver, $brand-teal);
+}
+
+.recentItemsContainerFour {
+    @include recentItemsContainerOne($brand-teal, $brand-silver);
 }
