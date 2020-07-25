@@ -27,13 +27,15 @@ const Home: NextPage = () => {
                         </TextLoop>
                     </div>
                     <div className="body2">
+                        <div className={styles.summary}>Welcome to my space.</div>
                         <div className={styles.summary}>
-                            Welcome to my space. I am a software engineer with over twenty years development experience
-                            acorss bulge-bracket investment banks and start-ups. I am comfortable across the full stack
-                            and also leading small to medium sized development teams. I enjoy product ownership and
-                            representation to senior stakeholders and also working directly with entrepeneurs. If you
-                            like what you see please feel free to connect with me on LinkedIn.
+                            I am a software engineer with over twenty years development experience acorss bulge-bracket
+                            investment banks and start-ups. I am comfortable working across the full stack and also
+                            leading small to medium sized high-performance development teams. I love taking ownership of
+                            an entire product and also representation to senior stakeholders and working directly with
+                            entrepeneurs.
                         </div>
+                        <div className={styles.summary}>If you like what you see, let&apos;s connect on LinkedIn.</div>
                     </div>
                 </div>
             </div>
