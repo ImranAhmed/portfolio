@@ -4,7 +4,42 @@
 .container {
     display: grid;
     place-items: center;
-    h1 {
-        color: $brand-slate-grey;
+}
+
+.card {
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 40px;
+    .bio {
+        width: 450px;
+        background-color: $brand-dark-grey;
+        padding: 25px;
+        box-shadow: 0 8px 16px 0 $brand-dark-grey;
+        margin-top: 20px;
     }
+    div {
+        color: white;
+    }
+    .divider {
+        border-top: 5px solid $brand-slate-grey;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .summary {
+        margin-top: 20px;
+        line-height: 1.5rem;
+        font-size: 18px;
+    }
+}
+
+.largeIcon {
+    font-size: 84px;
+    color: $brand-slate-grey;
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: -40px;
 }
