@@ -27,8 +27,6 @@ const Home: NextPage = () => {
                         </TextLoop>
                     </div>
                     <div className="body2">
-                        <div className={styles.summary}>Welcome to my space.</div>
-                        <div className={styles.underline} />
                         <div className={styles.summary}>
                             I am a <span className={styles.highlight}>software engineer</span> with over{' '}
                             <span className={styles.highlight}>twenty</span> years development experience acorss
@@ -40,7 +38,7 @@ const Home: NextPage = () => {
                             development teams. I love taking <span className={styles.highlight}>ownership</span> of an
                             the entire product suite and also representation to senior{' '}
                             <span className={styles.highlight}>stakeholders</span>, and working directly with
-                            <span className={styles.highlight}>&nbsp;entrepeneurs</span>.
+                            <span className={styles.highlight}>&nbsp;entrepreneurs</span>.
                         </div>
                         <div className={styles.summary}>If you like what you see, let&apos;s connect on LinkedIn.</div>
                     </div>
