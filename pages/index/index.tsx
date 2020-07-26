@@ -11,10 +11,11 @@ const Home: NextPage = () => {
             <Head>
                 <title>Portfolio: Imran Ahmed</title>
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Head>
             <div className="hero-bridge" />
 
-            <div className={styles.card}>
+            <div className={[styles.card, styles.mobile].join(' ')}>
                 <div className={styles.divider} />
                 <HeadlineTitle text="Imran Ahmed" />
                 <div className={styles.bio}>

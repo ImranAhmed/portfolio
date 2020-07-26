@@ -22,6 +22,11 @@
         padding: 0;
     }
 }
+@media screen and (max-width: 600px) {
+    .mobile {
+        padding: 30px !important;
+    }
+}
 
 .one {
     @include container($brand-dark-grey, $brand-orange);
