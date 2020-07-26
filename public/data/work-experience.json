@@ -1,0 +1,50 @@
+[
+    {
+        "item": "one",
+        "title": "London Stock Exchange",
+        "logo": "logo-lseg",
+        "experience": [
+            "Web Development Lead",
+            "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
+            "Responsible for maintenance and development of an Electron based application",
+            "Lead development resource for a new web based product spanning multiple business areas",
+            "TypeScript, Angular, Jenkins"
+        ]
+    },
+    {
+        "item": "two",
+        "title": "UBS",
+        "logo": "logo-ubs",
+        "experience": [
+            "Web Development Lead",
+            "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
+            "Responsible for maintenance and development of an Electron based application",
+            "Lead development resource for a new web based product spanning multiple business areas",
+            "TypeScript, Angular, Jenkins"
+        ]
+    },
+    {
+        "item": "three",
+        "title": "Qbridge",
+        "logo": "logo-qbridge",
+        "experience": [
+            "Web Development Lead",
+            "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
+            "Responsible for maintenance and development of an Electron based application",
+            "Lead development resource for a new web based product spanning multiple business areas",
+            "TypeScript, Angular, Jenkins"
+        ]
+    },
+    {
+        "item": "four",
+        "title": "Credit Suisse",
+        "logo": "logo-credit-suisse",
+        "experience": [
+            "Web Development Lead",
+            "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
+            "Responsible for maintenance and development of an Electron based application",
+            "Lead development resource for a new web based product spanning multiple business areas",
+            "TypeScript, Angular, Jenkins"
+        ]
+    }
+]

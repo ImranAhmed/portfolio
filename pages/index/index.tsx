@@ -1,6 +1,8 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
+import shortid from 'shortid';
 import { Bio, HeadlineTitle, JobTitles, RecentWork } from '../../components';
+import experience from '../../public/data/work-experience.json';
 import styles from './index.module.scss';
 
 const Home: NextPage = () => {
@@ -22,23 +24,30 @@ const Home: NextPage = () => {
                 <div className={['material-icons', styles.largeIcon].join(' ')}>keyboard_arrow_down</div>
             </div>
             <div className={styles.recentWorkSection}>
-                <RecentWork
-                    item="one"
-                    title="London Stock Exchange"
-                    logo="logo-lseg"
-                    experience={[
-                        'Web Development Lead',
-                        'LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)',
-                        'Responsible for maintenance and development of an Electron based application',
-                        'Lead development resource for a new web based product spanning multiple business areas',
-                        'TypeScript, Angular, Jenkins',
-                    ]}
-                />
-                <RecentWork item="two" title="UBS" experience={[]} />
+                {experience.slice(0, 2).map((e) => {
+                    return (
+                        <RecentWork
+                            key={shortid.generate()}
+                            item={e.item as 'one' | 'two' | 'three' | 'four'}
+                            title={e.title}
+                            logo={e.logo}
+                            experience={e.experience}
+                        />
+                    );
+                })}
             </div>
             <div className={styles.recentWorkSection}>
-                <RecentWork item="three" title="Qbridge" experience={[]} />
-                <RecentWork item="four" title="Credit Suisse" experience={[]} />
+                {experience.slice(Math.max(experience.length - 2, 0)).map((e) => {
+                    return (
+                        <RecentWork
+                            key={shortid.generate()}
+                            item={e.item as 'one' | 'two' | 'three' | 'four'}
+                            title={e.title}
+                            logo={e.logo}
+                            experience={e.experience}
+                        />
+                    );
+                })}
             </div>
         </>
     );

@@ -7,15 +7,24 @@
     background-size: cover;
 }
 
-@mixin set-logo($image) {
+@mixin set-logo($image, $width, $height: 50px) {
     display: inline-block;
     background: url(#{$image});
     background-size: cover;
-    width: 170px;
-    height: 50px;
+    width: $width;
+    height: $height;
     margin-top: 20px;
 }
 
 .logo-lseg {
-    @include set-logo('/images/lseg.png');
+    @include set-logo('/images/lseg.png', 170px);
+}
+.logo-ubs {
+    @include set-logo('/images/UBS_Logo_Semibold.svg', 170px, 60px);
+}
+.logo-credit-suisse {
+    @include set-logo('/images/credit-suisse.jpg', 180px);
+}
+.logo-qbridge {
+    @include set-logo('/images/qb-bug-black.png', 50px);
 }
