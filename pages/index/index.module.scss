@@ -30,6 +30,5 @@
 
 .recentWorkSection {
     display: grid;
-    height: 50vh;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
