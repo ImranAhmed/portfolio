@@ -24,16 +24,16 @@
 }
 
 .one {
-    @include container($brand-dark-grey, $brand-slate-grey);
+    @include container($brand-dark-grey, $brand-orange);
 }
 
 .two {
-    @include container($brand-slate-grey, $brand-dark-grey);
+    @include container($brand-orange, $brand-dark-grey);
 }
 .three {
-    @include container($brand-orange, $brand-yellow);
+    @include container($brand-slate-grey, $brand-yellow);
 }
 
 .four {
-    @include container($brand-yellow, $brand-orange);
+    @include container($brand-yellow, $brand-slate-grey);
 }

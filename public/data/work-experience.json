@@ -16,11 +16,11 @@
         "title": "UBS",
         "logo": "logo-ubs",
         "experience": [
-            "Web Development Lead",
-            "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
-            "Responsible for maintenance and development of an Electron based application",
-            "Lead development resource for a new web based product spanning multiple business areas",
-            "TypeScript, Angular, Jenkins"
+            "Web Engineer",
+            "Award winning portfolio analysis and risk management system",
+            "Enables clients to measure risk and performance across fixed income, commodities, equities and FX",
+            "Responsible for development and maintenance of web portal",
+            "React, Redux, TypeScript, C#/WebApi, Sybase"
         ]
     },
     {
@@ -28,11 +28,11 @@
         "title": "Qbridge",
         "logo": "logo-qbridge",
         "experience": [
-            "Web Development Lead",
-            "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
-            "Responsible for maintenance and development of an Electron based application",
-            "Lead development resource for a new web based product spanning multiple business areas",
-            "TypeScript, Angular, Jenkins"
+            "Development Lead",
+            "First full time hire and  first technical resource to join the team",
+            "Responsible for all aspects of engineering including product development, DevOps and cloud based architecture (AWS)",
+            "Close collaboration with Fixed Income, Capital Markets and data science experts translating quantitative models to cutting edge web based UI",
+            "TypeScript, Angular, Azure, C#/WebApi, PostgreSQL"
         ]
     },
     {
@@ -40,11 +40,11 @@
         "title": "Credit Suisse",
         "logo": "logo-credit-suisse",
         "experience": [
-            "Web Development Lead",
-            "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
-            "Responsible for maintenance and development of an Electron based application",
-            "Lead development resource for a new web based product spanning multiple business areas",
-            "TypeScript, Angular, Jenkins"
+            "Software Engineer",
+            "Prime Brokerage Risk Technology Services",
+            "Responsible for maintenance and development of a Risk and PnL System for the Delta-One desk",
+            "Development of a trade booking and records management system for the managed lending business with a 12 month secondment to Zurich",
+            "C#, SQL Server"
         ]
     }
 ]
