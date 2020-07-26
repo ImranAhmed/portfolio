@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = ({ config }) => {
     config.module.rules.push({
@@ -24,6 +25,23 @@ module.exports = ({ config }) => {
             },
         ],
     });
+    config.module.rules.push({
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+            'file-loader',
+            {
+                loader: 'image-webpack-loader',
+                options: {
+                    disable: true,
+                },
+            },
+        ],
+    });
     config.resolve.extensions.push('.ts', '.tsx');
+    config.plugins.push(
+        new CopyWebpackPlugin({
+            patterns: [{ from: 'public/images', to: 'images' }],
+        }),
+    );
     return config;
 };

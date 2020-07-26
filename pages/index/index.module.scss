@@ -20,29 +20,6 @@
         box-shadow: 0 8px 16px 0 $brand-dark-grey;
         margin-top: 20px;
     }
-    div {
-        color: white;
-    }
-    .divider {
-        border-top: 5px solid $brand-slate-grey;
-        width: 250px;
-        margin-bottom: 10px;
-    }
-    .highlight {
-        font-weight: bolder;
-        font-size: larger;
-        color: $brand-slate-grey;
-    }
-    .underline {
-        border-top: 1px solid $brand-slate-grey;
-        width: 250px;
-        margin-top: 20px;
-    }
-    .summary {
-        margin-top: 20px;
-        line-height: 1.75rem;
-        font-size: 18px;
-    }
 }
 
 .largeIcon {
@@ -52,6 +29,6 @@
 
 .recentWorkSection {
     display: grid;
-    height: 75vh;
+    height: 50vh;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }

@@ -10,14 +10,25 @@
         width: 250px;
         margin-bottom: 20px;
     }
+    .largeIcon {
+        font-size: 24px;
+        color: $dividerColor;
+        position: relative;
+        top: 8px;
+        margin-right: 5px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
 }
 
 .one {
-    @include container($brand-slate-grey, $brand-dark-grey);
+    @include container($brand-dark-grey, $brand-slate-grey);
 }
 
 .two {
-    @include container($brand-dark-grey, $brand-slate-grey);
+    @include container($brand-slate-grey, $brand-dark-grey);
 }
 .three {
     @include container($brand-orange, $brand-yellow);

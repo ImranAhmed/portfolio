@@ -22,12 +22,23 @@ const Home: NextPage = () => {
                 <div className={['material-icons', styles.largeIcon].join(' ')}>keyboard_arrow_down</div>
             </div>
             <div className={styles.recentWorkSection}>
-                <RecentWork item="one" title="London Stock Exchange" />
-                <RecentWork item="two" title="UBS" />
+                <RecentWork
+                    item="one"
+                    title="London Stock Exchange"
+                    logo="logo-lseg"
+                    experience={[
+                        'Web Development Lead',
+                        'LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)',
+                        'Responsible for maintenance and development of an Electron based application',
+                        'Lead development resource for a new web based product spanning multiple business areas',
+                        'TypeScript, Angular, Jenkins',
+                    ]}
+                />
+                <RecentWork item="two" title="UBS" experience={[]} />
             </div>
             <div className={styles.recentWorkSection}>
-                <RecentWork item="three" title="Qbridge" />
-                <RecentWork item="four" title="Credit Suisse" />
+                <RecentWork item="three" title="Qbridge" experience={[]} />
+                <RecentWork item="four" title="Credit Suisse" experience={[]} />
             </div>
         </>
     );
