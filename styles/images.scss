@@ -23,7 +23,7 @@
     @include set-logo('/images/UBS_Logo_Semibold.svg', 170px, 60px);
 }
 .logo-credit-suisse {
-    @include set-logo('/images/credit-suisse.jpg', 180px);
+    @include set-logo('/images/credit-suisse.png', 180px);
 }
 .logo-qbridge {
     @include set-logo('/images/qb-bug-black.png', 50px);
