@@ -22,7 +22,7 @@
         padding: 0;
     }
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-device-width: 1024px) {
     .mobile {
         padding: 30px !important;
     }
