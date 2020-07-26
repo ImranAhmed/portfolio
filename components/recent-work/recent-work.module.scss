@@ -31,9 +31,9 @@
     @include container($brand-orange, $brand-dark-grey);
 }
 .three {
-    @include container($brand-slate-grey, $brand-yellow);
+    @include container($brand-slate-grey, $brand-cream);
 }
 
 .four {
-    @include container($brand-yellow, $brand-slate-grey);
+    @include container($brand-cream, $brand-slate-grey);
 }
