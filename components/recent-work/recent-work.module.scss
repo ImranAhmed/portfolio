@@ -1,0 +1,28 @@
+@import 'colours.scss';
+@import 'typography.scss';
+
+@mixin container($color, $dividerColor) {
+    padding: 100px;
+    background: $color;
+    color: $dividerColor;
+    .divider {
+        border-top: 5px solid $dividerColor;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+}
+
+.one {
+    @include container($brand-slate-grey, $brand-dark-grey);
+}
+
+.two {
+    @include container($brand-dark-grey, $brand-slate-grey);
+}
+.three {
+    @include container($brand-orange, $brand-yellow);
+}
+
+.four {
+    @include container($brand-yellow, $brand-orange);
+}

@@ -1,5 +1,5 @@
-@import '../../styles/colours.scss';
-@import '../../styles/typography.scss';
+@import 'colours.scss';
+@import 'typography.scss';
 
 .container {
     display: grid;
@@ -50,34 +50,8 @@
     color: $brand-slate-grey;
 }
 
-.recentItemsSection {
+.recentWorkSection {
     display: grid;
     height: 75vh;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-@mixin recentItemsContainerOne($color, $dividerColor) {
-    padding: 100px;
-    background: $color;
-    color: $dividerColor;
-    .divider {
-        border-top: 5px solid $dividerColor;
-        width: 250px;
-        margin-bottom: 20px;
-    }
-}
-
-.recentItemsContainerOne {
-    @include recentItemsContainerOne($brand-slate-grey, $brand-dark-grey);
-}
-
-.recentItemsContainerTwo {
-    @include recentItemsContainerOne($brand-dark-grey, $brand-slate-grey);
-}
-.recentItemsContainerThree {
-    @include recentItemsContainerOne($brand-orange, $brand-yellow);
-}
-
-.recentItemsContainerFour {
-    @include recentItemsContainerOne($brand-yellow, $brand-orange);
 }
