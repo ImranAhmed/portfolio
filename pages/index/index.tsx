@@ -1,7 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import Bio from '../../components/bio/bio';
-import JobTitles from '../../components/job-titles/job-titles';
+import { Bio, HeadlineTitle, JobTitles } from '../../components';
 import styles from './index.module.scss';
 
 const Home: NextPage = () => {
@@ -15,7 +14,7 @@ const Home: NextPage = () => {
 
             <div className={styles.card}>
                 <div className={styles.divider} />
-                <div className="headline1">Imran Ahmed</div>
+                <HeadlineTitle text="Imran Ahmed" />
                 <div className={styles.bio}>
                     <JobTitles />
                     <Bio />
