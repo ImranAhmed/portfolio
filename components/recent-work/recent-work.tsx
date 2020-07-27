@@ -15,7 +15,8 @@ const RecentWork: React.FunctionComponent<Props> = ({ item, title, experience, l
     return (
         <div className={styles[item]}>
             <div className={styles.divider} />
-            <div className="headline3">{title}</div>
+            <div className={['headline3', 'mobile-hide'].join(' ')}>{title}</div>
+            <div className={['headline5', 'tablet-desktop-hide'].join(' ')}>{title}</div>
             <div className="body1">
                 <ul>
                     {experience.map((e) => {
