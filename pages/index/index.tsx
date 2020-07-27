@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 import shortid from 'shortid';
 import { Bio, HeadlineTitle, JobTitles, RecentWork } from '../../components';
 import experience from '../../public/data/work-experience.json';
@@ -61,7 +63,12 @@ const Home: NextPage = () => {
                     );
                 })}
             </div>
-            <div className={styles.footer}>Build with &#10084; using React and NextJS</div>
+            <div className={styles.footer}>
+                Build with &#10084; in London, UK using React and NextJS. View code:{' '}
+                <Link href="https://github.com/ImranAhmed/portfolio" prefetch={false}>
+                    <a>here</a>
+                </Link>{' '}
+            </div>
         </>
     );
 };
