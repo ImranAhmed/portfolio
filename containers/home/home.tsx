@@ -58,7 +58,7 @@ const Home: React.FunctionComponent<Props> = ({ name }) => (
             })}
         </div>
         <div className={styles.footer}>
-            Build with &#10084; in London, UK using React and NextJS. View code:{' '}
+            Built with &#10084; in London, UK using React and NextJS. View code:{' '}
             <Link href="https://github.com/ImranAhmed/portfolio" prefetch={false}>
                 <a>here</a>
             </Link>{' '}
