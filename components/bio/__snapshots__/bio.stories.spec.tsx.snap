@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="body2"
+  className="body3"
 >
   <div
     className="summary"
@@ -77,7 +77,16 @@ exports[`renders correctly 1`] = `
   <div
     className="summary"
   >
-    If you like what you see, let's connect on LinkedIn.
+    If you like what you see, let's 
+    <a
+      href="https://www.linkedin.com/in/ahmedimran/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      target="_blank"
+    >
+      connect
+    </a>
+    .
   </div>
 </div>
 `;
