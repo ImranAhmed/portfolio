@@ -5,6 +5,8 @@ import { Bio, HeadlineTitle, JobTitles, RecentWork } from '../../components';
 import experience from '../../public/data/work-experience.json';
 import styles from './index.module.scss';
 
+const name = 'Imran Ahmed';
+
 const Home: NextPage = () => {
     return (
         <>
@@ -15,10 +17,19 @@ const Home: NextPage = () => {
             </Head>
             <div className="hero-bridge" />
 
-            <div className={[styles.card, styles.mobile].join(' ')}>
+            <div className={[styles.card, 'mobile-hide'].join(' ')}>
                 <div className={styles.divider} />
-                <HeadlineTitle text="Imran Ahmed" />
+                <HeadlineTitle text={name} cssClass="headline1" />
                 <div className={styles.bio}>
+                    <JobTitles />
+                    <Bio />
+                </div>
+                <div className={['material-icons', styles.largeIcon].join(' ')}>keyboard_arrow_down</div>
+            </div>
+            <div className={[styles.cardMobile, 'tablet-desktop-hide'].join(' ')}>
+                <div className={styles.divider} />
+                <HeadlineTitle text={name} cssClass="headline4" />
+                <div className={styles.bioMobile}>
                     <JobTitles />
                     <Bio />
                 </div>

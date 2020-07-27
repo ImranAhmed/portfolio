@@ -15,15 +15,14 @@
         box-shadow: 0 8px 16px 0 $brand-dark-grey;
         margin-top: 20px;
     }
+    .bioMobile {
+        @extend .bio;
+        width: 250px;
+    }
     .divider {
         border-top: 5px solid $brand-slate-grey;
         width: 250px;
         margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 600px) {
-    .mobile {
-        display: none;
     }
 }
 
@@ -35,4 +34,9 @@
 .recentWorkSection {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.cardMobile {
+    @extend .card;
+    top: 50px;
+    left: 5px;
 }

@@ -1,12 +1,12 @@
 import * as React from 'react';
-import styles from './headline-title.module.scss';
 
 type Props = {
     text: string;
+    cssClass: 'headline1' | 'headline4';
 };
 
-const HeadlineTitle: React.FunctionComponent<Props> = ({ text }: Props) => (
-    <div className={['headline1', styles.mobile].join(' ')}>{text}</div>
+const HeadlineTitle: React.FunctionComponent<Props> = ({ text, cssClass }: Props) => (
+    <div className={cssClass}>{text}</div>
 );
 
 export default HeadlineTitle;

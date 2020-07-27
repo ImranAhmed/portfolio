@@ -23,3 +23,11 @@
     line-height: 1.75rem;
     font-size: 18px;
 }
+
+@media screen and (max-width: 600px) {
+    .summary {
+        margin-top: 10px;
+        line-height: 1.5rem;
+        font-size: 16px;
+    }
+}

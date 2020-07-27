@@ -2,7 +2,7 @@ import * as React from 'react';
 import styles from './bio.module.scss';
 
 const Bio: React.FC = () => (
-    <div className="body2">
+    <div className="body3">
         <div className={styles.summary}>
             I am a <span className={styles.highlight}>software engineer</span> with over{' '}
             <span className={styles.highlight}>twenty</span> years development experience across bulge-bracket{' '}

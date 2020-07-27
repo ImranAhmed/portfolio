@@ -11,7 +11,7 @@ type Props = {
 
 const RecentWork: React.FunctionComponent<Props> = ({ item, title, experience, logo }: Props) => {
     return (
-        <div className={[styles[item], styles.mobile].join(' ')}>
+        <div className={styles[item]}>
             <div className={styles.divider} />
             <div className="headline3">{title}</div>
             <div className="body1">
