@@ -2,8 +2,10 @@ import * as React from 'react';
 import shortid from 'shortid';
 import styles from './recent-work.module.scss';
 
+export type RecentWorkItem = 'one' | 'two' | 'three' | 'four';
+
 type Props = {
-    item: 'one' | 'two' | 'three' | 'four';
+    item: RecentWorkItem;
     title: string;
     experience: string[];
     logo?: string;

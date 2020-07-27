@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
 import shortid from 'shortid';
-import { Bio, HeadlineTitle, JobTitles, RecentWork } from '../../components';
+import { Bio, HeadlineTitle, JobTitles, RecentWork, RecentWorkItem } from '../../components';
 import experience from '../../public/data/work-experience.json';
 import styles from './home.module.scss';
 
@@ -36,7 +36,7 @@ const Home: React.FunctionComponent<Props> = ({ name }) => (
                 return (
                     <RecentWork
                         key={shortid.generate()}
-                        item={e.item as 'one' | 'two' | 'three' | 'four'}
+                        item={e.item as RecentWorkItem}
                         title={e.title}
                         logo={e.logo}
                         experience={e.experience}
@@ -49,7 +49,7 @@ const Home: React.FunctionComponent<Props> = ({ name }) => (
                 return (
                     <RecentWork
                         key={shortid.generate()}
-                        item={e.item as 'one' | 'two' | 'three' | 'four'}
+                        item={e.item as RecentWorkItem}
                         title={e.title}
                         logo={e.logo}
                         experience={e.experience}
