@@ -2,14 +2,16 @@
 @import 'typography.scss';
 
 @mixin container($color, $dividerColor) {
-    padding: 100px;
+    padding: 40px;
 
-    @media screen and (max-width: 600px) {
-        padding: 30px;
+    @media screen and (min-width: 1281px) {
+        padding: 100px;
     }
 
     background: $color;
+
     color: $dividerColor;
+
     .divider {
         border-top: 5px solid $dividerColor;
         width: 250px;
