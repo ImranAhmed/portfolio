@@ -19,13 +19,13 @@
         @extend .bio;
         width: 250px;
     }
-    .divider {
-        border-top: 5px solid $brand-slate-grey;
-        width: 250px;
-        margin-bottom: 20px;
-    }
 }
 
+.divider {
+    border-top: 5px solid $brand-slate-grey;
+    width: 250px;
+    margin-bottom: 20px;
+}
 .largeIcon {
     font-size: 84px;
     color: $brand-slate-grey;
@@ -39,4 +39,9 @@
     @extend .card;
     top: 50px;
     left: 5px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: $brand-dark-grey;
 }

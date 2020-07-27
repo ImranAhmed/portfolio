@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import Link from 'next/link';
 import * as React from 'react';
 import styles from './bio.module.scss';
 
@@ -16,7 +18,13 @@ const Bio: React.FC = () => (
             directly with
             <span className={styles.highlight}>&nbsp;entrepreneurs</span>.
         </div>
-        <div className={styles.summary}>If you like what you see, let&apos;s connect on LinkedIn.</div>
+        <div className={styles.summary}>
+            If you like what you see, let&apos;s&nbsp;
+            <Link href="https://www.linkedin.com/in/ahmedimran/" prefetch={false}>
+                <a target="_blank">connect</a>
+            </Link>
+            .
+        </div>
     </div>
 );
 

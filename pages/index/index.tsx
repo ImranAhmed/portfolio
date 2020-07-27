@@ -61,6 +61,7 @@ const Home: NextPage = () => {
                     );
                 })}
             </div>
+            <div className={styles.footer}>Build with &#10084; using React and NextJS</div>
         </>
     );
 };
