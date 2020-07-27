@@ -20,12 +20,12 @@ exports[`renders correctly 1`] = `
     >
       twenty
     </span>
-     years development experience across bulge-bracket
+     years development experience across
      
     <span
       className="highlight"
     >
-      investment banks
+      investment banking
     </span>
      and
      
@@ -34,21 +34,20 @@ exports[`renders correctly 1`] = `
     >
       start-ups
     </span>
-    . I am comfortable working across the
+    . I am highly experienced on the
+     
+    <span
+      className="highlight"
+    >
+      front-end
+    </span>
+     and equally at home working across the
     <span
       className="highlight"
     >
        full stack
     </span>
-     and also
-     
-    <span
-      className="highlight"
-    >
-      leading
-    </span>
-     small to medium sized
-     
+     (including infrastructure). I enjoy team leading and being part of small to medium sized 
     <span
       className="highlight"
     >
@@ -66,7 +65,7 @@ exports[`renders correctly 1`] = `
     >
       stakeholders
     </span>
-    , and working directly with
+     and working directly with
     <span
       className="highlight"
     >
