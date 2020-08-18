@@ -7,6 +7,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 -   Jest with Enzyme
 -   SCSS Modules
 -   ESLint & Prettier
+-   Storybook
 
 ## Getting Started
 
