@@ -63,19 +63,21 @@ exports[`renders correctly 1`] = `
     >
       full stack
     </span>
-     (including infrastructure). I enjoy team leading and being part of small to medium sized 
+     (including infrastructure). I enjoy team leading and contributing to 
     <span
       className="highlight"
     >
-      high-performance 
+      high performance
     </span>
-    development teams. I love taking 
+     development teams. I love taking
+     
     <span
       className="highlight"
     >
       ownership
     </span>
-     of the entire product suite including representation to senior 
+     of the product suite including representation to senior
+     
     <span
       className="highlight"
     >
