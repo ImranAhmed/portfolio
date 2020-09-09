@@ -20,7 +20,7 @@ exports[`renders correctly 1`] = `
     >
       twenty
     </span>
-     years development experience across
+     years experience across
      
     <span
       className="highlight"
@@ -34,9 +34,8 @@ exports[`renders correctly 1`] = `
     >
       start-ups
     </span>
-    . During my career I have worked on unique applications
+    . I have worked on unique applications that have managed
      
-    that have managed 
     <span
       className="highlight"
     >
@@ -56,20 +55,20 @@ exports[`renders correctly 1`] = `
     >
       front-end
     </span>
-     and equally at home working across the
+     and equally at home across the
      
     <span
       className="highlight"
     >
       full stack
     </span>
-     (including infrastructure). I enjoy team leading and contributing to 
+     (including infrastructure). I enjoy team leading, contributing to 
     <span
       className="highlight"
     >
       high performance
     </span>
-     development teams. I love taking
+     development teams and taking
      
     <span
       className="highlight"
