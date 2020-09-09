@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
     <span
       className="highlight"
     >
-      full stack
+      full-stack
     </span>
      (including infrastructure). I enjoy team leading, contributing to 
     <span

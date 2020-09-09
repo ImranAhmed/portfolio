@@ -13,7 +13,7 @@ const Bio: React.FC = () => (
             <span className={styles.highlight}>trillions</span> of dollars of{' '}
             <span className={styles.highlight}>capital</span>. I am highly experienced on the{' '}
             <span className={styles.highlight}>front-end</span> and equally at home across the{' '}
-            <span className={styles.highlight}>full stack</span> (including infrastructure). I enjoy team leading,
+            <span className={styles.highlight}>full-stack</span> (including infrastructure). I enjoy team leading,
             contributing to <span className={styles.highlight}>high performance</span> development teams and taking{' '}
             <span className={styles.highlight}>ownership</span> of the product suite including representation to senior{' '}
             <span className={styles.highlight}>stakeholders</span> and working directly with
