@@ -34,6 +34,21 @@ exports[`renders correctly 1`] = `
     >
       start-ups
     </span>
+    . During my career I have worked on unique applications
+     
+    that have managed 
+    <span
+      className="highlight"
+    >
+      trillions
+    </span>
+     of dollars of
+     
+    <span
+      className="highlight"
+    >
+      capital
+    </span>
     . I am highly experienced on the
      
     <span
@@ -42,10 +57,11 @@ exports[`renders correctly 1`] = `
       front-end
     </span>
      and equally at home working across the
+     
     <span
       className="highlight"
     >
-       full stack
+      full stack
     </span>
      (including infrastructure). I enjoy team leading and being part of small to medium sized 
     <span
