@@ -46,9 +46,9 @@
 }
 
 .five {
-    @include container($brand-steelblue, $brand-darkslategrey);
+    @include container($brand-powderblue, $brand-steelblue);
 }
 
 .six {
-    @include container($brand-darkslategrey, $brand-steelblue);
+    @include container($brand-steelblue, $brand-powderblue);
 }

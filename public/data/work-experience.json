@@ -17,7 +17,7 @@
         "experience": [
             "CTO",
             "Sole development resource tasked with building a MVP for a healthtech startup",
-            "Responsible for design, development and cloud based architecture",
+            "Responsible for design, development and cloud based architecture (AWS, Vercel)",
             "Highly aggressive timelines to test the market and pitch to investors",
             "React, NextJS, TypeScript, PostgreSQL, Auth0"
         ]
@@ -36,30 +36,6 @@
     },
     {
         "item": "four",
-        "title": "Credit Suisse",
-        "logo": "logo-credit-suisse",
-        "experience": [
-            "Software Engineer",
-            "Prime Brokerage Risk Technology Services",
-            "Responsible for maintenance and development of a Risk and PnL System for the Delta-One desk",
-            "Development of a trade booking and records management system for the managed lending business with a 12 month secondment to Zurich",
-            "C#, SQL Server"
-        ]
-    },
-    {
-        "item": "five",
-        "title": "Willis Towers Watson",
-        "logo": "logo-wtw",
-        "experience": [
-            "Team Lead",
-            "Risk & Analytics development team part of Corporate Risk & Broking division",
-            "Close collaboration with a small team of actuaries based in NY responsible for developing the risk models and simulations",
-            "Designed & developed the Azure PaaS based infrastructure",
-            "TypeScript, Angular, Azure, SQL Server"
-        ]
-    },
-    {
-        "item": "six",
         "title": "Qbridge",
         "logo": "logo-qbridge",
         "experience": [
@@ -68,6 +44,30 @@
             "Responsible for all aspects of engineering including product development, DevOps and cloud based architecture (AWS)",
             "Close collaboration with Fixed Income, Capital Markets and data science experts translating quantitative models to cutting edge web based UI",
             "TypeScript, Angular, C#/WebApi, PostgreSQL, Azure DevOps, AWS"
+        ]
+    },
+    {
+        "item": "five",
+        "title": "Willis Towers Watson",
+        "logo": "logo-wtw",
+        "experience": [
+            "Team Lead",
+            "Risk & Analytics development team part of Corporate Risk & Broking",
+            "Close collaboration with a small team of actuaries based in NY responsible for developing the risk models and simulations",
+            "Designed & developed the Azure PaaS based infrastructure",
+            "TypeScript, Angular, Azure, SQL Server"
+        ]
+    },
+    {
+        "item": "six",
+        "title": "Credit Suisse",
+        "logo": "logo-credit-suisse",
+        "experience": [
+            "Software Engineer",
+            "Prime Brokerage Risk Technology Services",
+            "Responsible for maintenance and development of a Risk and PnL System for the Delta-One desk",
+            "Development of a trade booking and records management system for the managed lending business with a 12 month secondment to Zurich",
+            "C#, SQL Server"
         ]
     }
 ]
