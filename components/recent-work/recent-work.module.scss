@@ -44,3 +44,11 @@
 .four {
     @include container($brand-cream, $brand-slate-grey);
 }
+
+.five {
+    @include container($brand-steelblue, $brand-darkslategrey);
+}
+
+.six {
+    @include container($brand-darkslategrey, $brand-steelblue);
+}

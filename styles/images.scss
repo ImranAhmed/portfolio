@@ -28,3 +28,7 @@
 .logo-qbridge {
     @include set-logo('/images/qb-bug-black.png', 50px);
 }
+
+.logo-wtw {
+    @include set-logo('/images/wtw.png', 250px);
+}

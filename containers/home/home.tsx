@@ -45,7 +45,20 @@ const Home: React.FunctionComponent<Props> = ({ name }) => (
             })}
         </div>
         <div className={styles.recentWorkSection}>
-            {experience.slice(Math.max(experience.length - 2, 0)).map((e) => {
+            {experience.slice(2, 4).map((e) => {
+                return (
+                    <RecentWork
+                        key={shortid.generate()}
+                        item={e.item as RecentWorkItem}
+                        title={e.title}
+                        logo={e.logo}
+                        experience={e.experience}
+                    />
+                );
+            })}
+        </div>
+        <div className={styles.recentWorkSection}>
+            {experience.slice(4, 6).map((e) => {
                 return (
                     <RecentWork
                         key={shortid.generate()}

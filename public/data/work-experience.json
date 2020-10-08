@@ -8,11 +8,22 @@
             "LCH SwapClear team (largest OTC interest rate swap clearing service by gross notional cleared)",
             "Responsible for maintenance and development of an Electron based application",
             "Lead developer for a new web based product spanning multiple business areas",
-            "TypeScript, NodeJS, Angular, Jenkins"
+            "TypeScript, NodeJS, Electron"
         ]
     },
     {
         "item": "two",
+        "title": "Private Client",
+        "experience": [
+            "CTO",
+            "Sole development resource tasked with building a MVP for a healthtech startup",
+            "Responsible for design, development and cloud based architecture",
+            "Highly aggressive timelines to test the market and pitch to investors",
+            "React, NextJS, TypeScript, PostgreSQL, Auth0"
+        ]
+    },
+    {
+        "item": "three",
         "title": "UBS",
         "logo": "logo-ubs",
         "experience": [
@@ -21,18 +32,6 @@
             "Enables clients to measure risk and performance across fixed income, commodities, equities and FX",
             "Responsible for development and maintenance of client-facing web portal",
             "React, Redux, TypeScript, C#/WebApi, Sybase"
-        ]
-    },
-    {
-        "item": "three",
-        "title": "Qbridge",
-        "logo": "logo-qbridge",
-        "experience": [
-            "Development Lead",
-            "First full time hire and  first technical resource to join the team",
-            "Responsible for all aspects of engineering including product development, DevOps and cloud based architecture (AWS)",
-            "Close collaboration with Fixed Income, Capital Markets and data science experts translating quantitative models to cutting edge web based UI",
-            "TypeScript, Angular, Azure, C#/WebApi, PostgreSQL, Azure DevOps, AWS"
         ]
     },
     {
@@ -45,6 +44,30 @@
             "Responsible for maintenance and development of a Risk and PnL System for the Delta-One desk",
             "Development of a trade booking and records management system for the managed lending business with a 12 month secondment to Zurich",
             "C#, SQL Server"
+        ]
+    },
+    {
+        "item": "five",
+        "title": "Willis Towers Watson",
+        "logo": "logo-wtw",
+        "experience": [
+            "Team Lead",
+            "Risk & Analytics development team part of Corporate Risk & Broking division",
+            "Close collaboration with a small team of actuaries based in NY responsible for developing the risk models and simulations",
+            "Designed & developed the Azure PaaS based infrastructure",
+            "TypeScript, Angular, Azure, SQL Server"
+        ]
+    },
+    {
+        "item": "six",
+        "title": "Qbridge",
+        "logo": "logo-qbridge",
+        "experience": [
+            "Development Lead",
+            "First full time hire and  first technical resource to join the team",
+            "Responsible for all aspects of engineering including product development, DevOps and cloud based architecture (AWS)",
+            "Close collaboration with Fixed Income, Capital Markets and data science experts translating quantitative models to cutting edge web based UI",
+            "TypeScript, Angular, C#/WebApi, PostgreSQL, Azure DevOps, AWS"
         ]
     }
 ]
